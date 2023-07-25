@@ -6,6 +6,8 @@ import { faClose, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import linkdin from "../../assets/image/linkdin.png"
 import skype from "../../assets/image/skype.png"
 import email from "../../assets/image/email.png"
+import { Link } from "react-router-dom"
+
 export const Hero = () => {
   return (
     <>
@@ -28,9 +30,10 @@ export const Hero = () => {
               <p data-aos='fade-left' className="banner-text">{val.desc}</p>
               <div>
                 <div className="flex-icon">
-                  <img src={linkdin} alt='' data-aos='zoom-in-right' className="socialicon" />
-                  <img src={skype} alt='' data-aos='zoom-in-right' className="socialicon" />
-                  <img src={email} alt='' data-aos='zoom-in-right' className="socialicon" />
+                  <Link href='https://www.linkedin.com'><img src={linkdin} alt='' data-aos='zoom-in-right' className="socialicon" /></Link>
+                  
+                  <Link href='https://www.linkedin.com'> <img src={skype} alt='' data-aos='zoom-in-right' className="socialicon" /></Link>
+                  <Link href='https://www.linkedin.com'> <img src={email} alt='' data-aos='zoom-in-right' className="socialicon" /></Link>
                   
                 </div>
               </div>

@@ -14,12 +14,12 @@ export const Counter = () => {
           <div className="container">
           <div className="row">
           {project.map((item) => (
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-6 col-md-6 col-12">
              
                 <div className="counter-box box " data-aos="zoom-in">
                   <i>{item.icon}</i>
                   <h1 className="heading">
-                    <CountUp enableScrollSpy duration={2} end={item.num} />
+                    <CountUp enableScrollSpy duration={2} end={item.num} />+
                   </h1>
                   <h5 className="counter-text">{item.title}</h5>
                 </div>

@@ -16,7 +16,7 @@ export const Services = () => {
               <div className='box' data-aos='flip-left'>
                 <i>{item.icon}</i>
                 <h3>{item.title}</h3>
-                <p className="text-dis">{item.desc}</p>
+                <p className="text-dis mb-0">{item.desc}</p>
               </div>
          
           </div>

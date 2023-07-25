@@ -44,7 +44,7 @@ export const home = [
     name: "Prachi Mathe",
     post: "WEB DESIGNER",
     design: "UI / UX DESIGNER",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "I am a diligent professional front-end developer with around 3 years of working experience in Web designing. Aim to be placed in a challenging organization that gives me scope to enhance my knowledge & skills in accordance with the latest trends and be a part of a team that dynamically works towards growth of organization.",
   },
 ]
 export const about = [
@@ -59,149 +59,138 @@ export const services = [
     id: 1,
     icon: <Settings />,
     title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Creative design involves using computer-generated imagery and digital animation to visualise a product. It aims to produce unique and memorable designs that stand out so that customers may easily identify a brand or product."
   },
   {
     id: 2,
     icon: <CropRotate />,
     title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "The overarching goal when writing code is to make it easy to read and to understand. Well-written programs are easier to debug, easier to maintain, and have fewer errors. Writing a program is a lot like writing an essay. ",
   },
   {
     id: 3,
     icon: <ViewInAr />,
     title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Responsive design is the idea of making your website look great at any resolution---not just on desktop and mobile. With a responsive site, your desktop and mobile site are the same page, and scale with window size.",
   },
   {
     id: 4,
     icon: <PieChart />,
     title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Material UI is beautiful by design and features a suite of customization options that make it easy to implement your own custom design system. Material UI components work in isolation. They are self-contained, and will only inject the styles they need to display.",
   },
   {
     id: 5,
     icon: <Code />,
     title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Material design system icons are simple, modern, friendly, and sometimes quirky. Each icon is created using our design guidelines to depict in simple and minimal forms the universal concepts used commonly throughout a UI at  these icons have been optimized for beautiful display.",
   },
   {
     id: 6,
     icon: <BarChart />,
     title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Awesome Support is the result of three years of work Experience in html, css bootstrap,javascript,tailwind css,scss,material ui,figma web and mobile responsive animation attrective and creative  design . ",
   },
 ]
 export const project = [
   {
     id: 1,
     icon: <CloudOutlined />,
-    num: "89",
+    num: "5",
     title: "HAPPY CLIENTS",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
-    num: "231",
+    num: "10 ",
     title: "PROJECTS COMPLEATED",
   },
-  {
-    id: 3,
-    icon: <Public />,
-    num: "108",
-    title: "FILES DOWNLOADED",
-  },
-  {
-    id: 4,
-    icon: <PersonOutlined />,
-    num: "1446",
-    title: "LIENS OF CODE",
-  },
+  
 ]
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/port1.jpg",
+    cover: "../images/port/port1.png",
     name: "Brand",
     category: "marketing",
-    title: "Brex Logo",
+    title: "Flight Booking",
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
-    name: "Brand",
+    cover: "../images/port/port2.png",
+        name: "Brand",
     category: "design",
-    title: "Brex Logo",
+    title: "Only Jewelst",
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
+    cover: "../images/port/port3.png",
     name: "Brand",
     category: "development",
-    title: "Brex Logo",
+    title: "Aim Q Test",
   },
   {
     id: 4,
-    cover: "../images/port/port4.jpg",
+    cover: "../images/port/port4.png",
     name: "Brand",
     category: "marketing",
-    title: "Brex Logo",
+    title: "Shopify App",
   },
   {
     id: 5,
-    cover: "../images/port/port5.jpg",
+    cover: "../images/port/port5.png",
     name: "Brand",
     category: "design",
-    title: "Brex Logo",
+    title: "Podably",
   },
   {
     id: 6,
-    cover: "../images/port/port6.jpg",
+    cover: "../images/port/port6.png",
     name: "Brand",
     category: "development",
-    title: "Brex Logo",
+    title: "Energy Meters",
   },
 ]
-export const testimonials = [
-  {
-    id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
-    name: "John",
-    post: "Front End Developer",
-  },
-  {
-    id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
-    post: "Back End Developer",
-  },
-  {
-    id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
-  },
-]
+// export const testimonials = [
+//   {
+//     id: 1,
+//     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+//     image: "./images/testimonials/team-1.png",
+//     name: "John",
+//     post: "Front End Developer",
+//   },
+//   {
+//     id: 2,
+//     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+//     image: "./images/testimonials/team-2.png",
+//     name: "Alex Ander",
+//     post: "Back End Developer",
+//   },
+//   {
+//     id: 3,
+//     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+//     image: "./images/testimonials/team-3.png",
+//     name: "GorkCoder",
+//     post: "React Developer",
+//   },
+// ]
 
 
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "Indore",
+    // text2: "Seattle, WA, 98101",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "8962283860",
+    // text2: "0345627891",
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "prachi.mathe0@gmail.com",
+    // text2: "inf0@brex-theme.io",
   },
 ]
 export const social = [

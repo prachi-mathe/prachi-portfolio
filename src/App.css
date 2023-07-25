@@ -250,6 +250,10 @@ section {
 
 .text-dis {
   color: var(--white);
+  
+  font-weight: 200;
+  line-height: 22px;
+
 }
 
 .grid4 {
@@ -565,6 +569,7 @@ footer i {
   font-size: 13px;
   font-weight: 600;
   padding-left: 2px !important;
+  z-index: 9999999 !important;
 
 
 
@@ -585,6 +590,8 @@ footer i {
   border-radius: 26px 0px;
   border: 2px solid #598bf9;
   color: #4e54c8;
+  z-index: 99999 !important;
+cursor: pointer;
 }
 
 .flex-gap {
@@ -598,6 +605,10 @@ footer i {
   border: 2px solid #598bf9;
   color: #4e54c8; */
   height: 50px;
+  
+  z-index: 9999999 !important;
+  cursor: pointer;
+
 }
 
 .flex-gap:hover {
@@ -850,6 +861,8 @@ img.socialicon.aos-init.aos-animate {
   color: #4364f7;
   width: 60px;
   height: 60px;
+  cursor: pointer;
+
 
 }
 

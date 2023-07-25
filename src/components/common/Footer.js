@@ -4,14 +4,14 @@ import { social } from "../data/dummydata"
 const Footer = () => {
   return (
     <>
-      <footer>
+      {/* <footer>
         {social.map((item) => (
           <>
             <i >{item.icon}</i>
           </>
         ))}
         <p >All Right Resceved 2018</p>
-      </footer>
+      </footer> */}
     </>
   )
 }

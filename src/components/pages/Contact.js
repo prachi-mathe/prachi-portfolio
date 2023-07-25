@@ -21,7 +21,7 @@ export const Contact = () => {
                   <input type='email' placeholder='Email' data-aos='flip-right' />
                 </div>
                 <input type='email' placeholder='Subject' data-aos='flip-up' />
-                <textarea name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
+                <textarea name='' id='' cols='10' rows='7' data-aos='flip-down'></textarea>
                 <button data-aos='zoom-in-up'>Submit</button>
               </form>
             </div>
