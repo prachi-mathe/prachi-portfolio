@@ -14,7 +14,7 @@ export const Counter = () => {
           <div className="container">
           <div className="row">
           {project.map((item) => (
-            <div className="col-lg-6 col-md-6 col-12">
+            <div className="col-lg-6 col-md-12 col-12">
              
                 <div className="counter-box box " data-aos="zoom-in">
                   <i>{item.icon}</i>
