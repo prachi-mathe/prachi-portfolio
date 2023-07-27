@@ -42,7 +42,7 @@ export const Hero = () => {
         </section>
       </div>
       <div class="area" >
-        <ul class="circles">
+        {/* <ul class="circles">
           <li></li>
           <li></li>
           <li></li>
@@ -53,7 +53,7 @@ export const Hero = () => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>
+        </ul> */}
       </div >
     </>
   )

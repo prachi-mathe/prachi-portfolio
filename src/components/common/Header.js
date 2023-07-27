@@ -26,7 +26,6 @@ console.log(active)
           <FontAwesomeIcon icon={faClose} className='icon-none' />
 
             {navlink.map((links, i) => (
-              // <Link to={links.url} key={i} data-aos='zoom-in-left'>
                 <div className={`flex-gap ${index === i + 1 ? 'active':'inactive'}`} onClick={() =>{
                  setIndex(index + 1)
                  setActive({value:links.text,
@@ -36,7 +35,7 @@ console.log(active)
                 {links.text}
                 </div>
                
-              // </Link>
+              
             ))}
           </div>
           <button className='toggle' onClick={() => setResponsive(!responsive)}>

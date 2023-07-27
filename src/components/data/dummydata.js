@@ -102,7 +102,7 @@ export const project = [
   {
     id: 2,
     icon: <FavoriteBorder />,
-    num: "10 ",
+    num: "12",
     title: "PROJECTS COMPLEATED",
   },
   
@@ -149,6 +149,34 @@ export const portfolio = [
     name: "Brand",
     category: "development",
     title: "Energy Meters",
+  },
+  {
+    id: 7,
+    cover: "../images/port/3.png",
+    name: "Brand",
+    category: "development",
+    title: "Aim Q Test Admin",
+  },
+  {
+    id: 8,
+    cover: "../images/port/5.png",
+    name: "Brand",
+    category: "development",
+    title: "Energy Meters",
+  },
+  {
+    id: 9,
+    cover: "../images/port/6.png",
+    name: "Brand",
+    category: "development",
+    title: "Travelling",
+  },
+  {
+    id: 10,
+    cover: "../images/port/7.png",
+    name: "Brand",
+    category: "development",
+    title: "Travelling",
   },
 ]
 // export const testimonials = [
